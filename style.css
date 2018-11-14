@@ -88,7 +88,7 @@ color: white;
 .content {
   display: flex;
   z-index: 1;
-  padding-top: 80px;
+  padding-top: 100px;
   width: 1232px;
   margin: 0 auto 78px auto;
 }
@@ -174,8 +174,7 @@ footer {
   width: 100%;
   height: 325px;
   margin: auto;
-  position: fixed;
-  z-index: 1;
+  position: bottom;
   background-color: MediumAquamarine;
   color: white;
   font-family: Verdana;
@@ -187,7 +186,7 @@ footer {
 .copyright {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
   padding-top: 50px;
   justify-content: center;
   color: black;
